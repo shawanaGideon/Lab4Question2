@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\test\\source\\repos\\Lab4Question2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{27101394-429B-49FF-8DC3-D08CC2277945}|Solution Items{27101394-429B-49FF-8DC3-D08CC2277945}|C:\\Users\\test\\source\\repos\\Lab4Question2\\azure-pipelines.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{27101394-429B-49FF-8DC3-D08CC2277945}|Solution Items{27101394-429B-49FF-8DC3-D08CC2277945}|solutionrelative:azure-pipelines.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5099C54B-9DF1-4D3D-A286-DE253BF758FA}|MvcMovie.csproj|c:\\users\\test\\source\\repos\\lab4question2\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5099C54B-9DF1-4D3D-A286-DE253BF758FA}|MvcMovie.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "azure-pipelines.yaml",
+              "DocumentMoniker": "C:\\Users\\test\\source\\repos\\Lab4Question2\\azure-pipelines.yaml",
+              "RelativeDocumentMoniker": "azure-pipelines.yaml",
+              "ToolTip": "C:\\Users\\test\\source\\repos\\Lab4Question2\\azure-pipelines.yaml",
+              "RelativeToolTip": "azure-pipelines.yaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-08T01:50:38.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MvcMovieContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\test\\source\\repos\\Lab4Question2\\Migrations\\MvcMovieContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\MvcMovieContextModelSnapshot.cs",
@@ -50,25 +67,23 @@
               "RelativeToolTip": "Migrations\\MvcMovieContextModelSnapshot.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T22:47:56.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T22:47:56.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\test\\source\\repos\\Lab4Question2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\test\\source\\repos\\Lab4Question2\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\Users\\test\\source\\repos\\Lab4Question2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T22:45:29.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T22:45:29.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "20240407223454_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\test\\source\\repos\\Lab4Question2\\Migrations\\20240407223454_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20240407223454_InitialCreate.cs",
@@ -76,12 +91,11 @@
               "RelativeToolTip": "Migrations\\20240407223454_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T22:34:54.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T22:34:54.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MoviesController.cs",
               "DocumentMoniker": "C:\\Users\\test\\source\\repos\\Lab4Question2\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
@@ -94,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MvcMovieContext.cs",
               "DocumentMoniker": "C:\\Users\\test\\source\\repos\\Lab4Question2\\Data\\MvcMovieContext.cs",
               "RelativeDocumentMoniker": "Data\\MvcMovieContext.cs",
@@ -102,12 +116,11 @@
               "RelativeToolTip": "Data\\MvcMovieContext.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T22:44:07.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T22:44:07.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\test\\source\\repos\\Lab4Question2\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -115,12 +128,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-07T22:38:05.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T22:38:05.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\test\\source\\repos\\Lab4Question2\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Models\\Movie.cs",
@@ -128,8 +140,7 @@
               "RelativeToolTip": "Models\\Movie.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T22:29:05.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T22:29:05.791Z"
             }
           ]
         }

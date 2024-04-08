@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin\\Debug",
-    "\\Models"
+    "\\Controllers"
   ],
-  "SelectedNode": "\\MvcMovie.sln",
+  "SelectedNode": "\\Controllers\\MoviesController.cs",
   "PreviewInSolutionExplorer": false
 }

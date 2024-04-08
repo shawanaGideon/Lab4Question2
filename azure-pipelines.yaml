@@ -1,0 +1,45 @@
+name: CI
+
+trigger:
+  branches:
+    include:
+      - main
+      - development
+  paths:
+    exclude:
+      - README.md
+      - LICENSE
+
+jobs:
+- job: Build
+  displayName: 'Build ASP.NET Core Web Application'
+  pool:
+    vmImage: 'windows-latest'
+  steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '6.x'
+      installationPath: $(Agent.ToolsDirectory)/dotnet
+    displayName: 'Use .NET SDK 6.x'
+    
+  - script: dotnet restore
+    displayName: 'Restore NuGet packages'
+
+  - script: dotnet build --configuration Release
+    displayName: 'Build solution'
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'publish'
+      publishWebProjects: true
+      arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)'
+      zipAfterPublish: true
+    displayName: 'Publish Web Projects'
+    condition: succeededOrFailed()
+  
+  - task: PublishBuildArtifacts@1
+    inputs:
+      pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+      artifactName: 'publishedWebsite'
+    displayName: 'Publish Artifact'
